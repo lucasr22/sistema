@@ -69,7 +69,6 @@ h2{
 
 .table{
 	width: 94%;
-    height: 500px;
     border: 1px solid black;
     margin-left: 2%;
     margin-top: 2%;
@@ -110,8 +109,8 @@ h2{
 .inputt{
 	display: inline;
     width: 17%;
-    margin-left: 16%;
-	margin-right: -15%;
+    
+	
 }
 
 .btnn{
@@ -139,4 +138,8 @@ td{
 
 .hrb{
 	border-bottom: 1%;
+}
+
+form{
+	margin-left: 17%;
 }

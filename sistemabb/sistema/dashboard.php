@@ -56,7 +56,8 @@ if(isset($_POST["ngt"])){
 			while ($linhas=mysqli_fetch_assoc($tu)) {
 				echo "<tr><td>".$linhas['nome'] . "<hr class='hrb'></td>";
 				echo "<td>".$linhas['email'] . "<hr class='hrb'></td>";
-				echo "<td>".$linhas['telefone'] . "<hr class='hrb'></td></tr>";
+				echo "<td>".$linhas['telefone'] . "<hr class='hrb'></td>";
+				echo "<td>"."<a href='reslucro.php?id={$linhas['id']}'>apagar</a></td></tr>";
 			}
 		
 	
